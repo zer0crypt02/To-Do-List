@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gelişmiş Yapılacaklar Listesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h2 class="header-title">Yapılacaklar Listesi</h2>
+        <div class="todo-header">
+            <input type="text" class="todo-input" placeholder="Yeni görev ekle...">
+            <button class="add-btn">Ekle</button>
+        </div>
+        <ul class="todo-list" id="todoList">
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Raporu tamamla</span>
+                <img src="verified.png" class="verified-icon" alt="Tamamlandı">
+                <img src="trash.png" class="trash-icon" alt="Sil">
+            </li>
+            <li class="todo-item completed">
+                <input type="checkbox" class="todo-checkbox" checked>
+                <span class="todo-text">Toplantıya hazırlan</span>
+                <img src="verified.png" class="verified-icon" alt="Tamamlandı">
+                <img src="trash.png" class="trash-icon" alt="Sil">
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Yeni proje planını gözden geçir</span>
+                <img src="verified.png" class="verified-icon" alt="Tamamlandı">
+                <img src="trash.png" class="trash-icon" alt="Sil">
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
